@@ -2,7 +2,7 @@
 LeetCode problem solutions for FAANG coding rounds.
 
 ## Easy
-| Number | Title (leetcode link) | Solution
+| Number | LeetCode Problem | My Solution
 | ------------- | ------------- | -------------
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/704.%20Binary%20Search.txt)
 | 2114 | [ Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2114.%20Maximum%20Number%20of%20Words%20Found%20in%20Sentences.txt)  | Easy
@@ -15,7 +15,7 @@ LeetCode problem solutions for FAANG coding rounds.
 ---
 
 ## Medium
-| Number | Title | Solution
+| Number | LeetCode Problem | My Solution
 | ------------- | ------------- | -------------
 | 1797 | [Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Medium/1797.%20Design%20Authentication%20Manager.txt)
 | 535 | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Medium/535.%20Encode%20and%20Decode%20TinyURL.txt)
@@ -26,6 +26,6 @@ LeetCode problem solutions for FAANG coding rounds.
 ---
 
 ## Hard
-| Number | Title | Solution
+| Number | LeetCode Problem | My Solution
 | ------------- | ------------- | ------------- |
 | 381  | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Hard/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.txt)
