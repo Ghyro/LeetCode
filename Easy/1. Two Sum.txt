@@ -1,0 +1,22 @@
+using System.Collections.Generic;
+
+namespace Easy
+{
+    class TwoSum
+    {
+        public int[] TwoSumAlg(int[] nums, int target)
+        {
+            var hash = new Dictionary<int, int>();
+            for (int i = 0; i < nums.Length; i++)
+            {
+                var vl = target - nums[i];
+                if (hash.ContainsKey(vl))
+                    return new[] { hash[vl], i };
+
+                if (!hash.ContainsKey(nums[i]))
+                    hash.Add(nums[i], i);
+            }
+            return null;
+        }
+    }
+}

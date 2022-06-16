@@ -1,0 +1,63 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Hard
+{
+    public class RandomizedCollection
+    {
+        List<int> list;
+        Dictionary<int, HashSet<int>> dict;
+        Random rd;
+        public RandomizedCollection()
+        {
+            list = new List<int>();
+            dict = new Dictionary<int, HashSet<int>>();
+            rd = new Random();
+        }
+
+        public bool Insert(int val)
+        {
+            bool doesExist = false;
+            list.Add(val);
+            if (!dict.ContainsKey(val))
+            {
+                dict.Add(val, new HashSet<int>());
+                doesExist = true;
+            }
+            dict[val].Add(list.Count - 1);
+            return doesExist;
+        }
+
+        public bool Remove(int val)
+        {
+            if (!dict.ContainsKey(val))
+            {
+                return false;
+            }
+
+            var indexToRemove = dict[val].First();
+            dict[val].Remove(indexToRemove);
+            var lastItemIndex = list.Count - 1;
+
+            if (indexToRemove != lastItemIndex)
+            {
+                var swappedItem = list[lastItemIndex];
+                list[indexToRemove] = swappedItem;
+                dict[swappedItem].Add(indexToRemove);
+                dict[swappedItem].Remove(lastItemIndex);
+            }
+
+            list.RemoveAt(lastItemIndex);
+
+            if (dict[val].Count == 0)
+            {
+                dict.Remove(val);
+            }
+
+            return true;
+        }
+
+        public int GetRandom() => list[rd.Next(list.Count)];
+    }
+}

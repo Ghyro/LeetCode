@@ -1,0 +1,48 @@
+using System.Collections.Generic;
+
+namespace Medium
+{
+    public class AuthenticationManager
+    {
+        Dictionary<string, int> tokenTime;
+        int _timeToLive;
+        public AuthenticationManager(int timeToLive)
+        {
+            _timeToLive = timeToLive;
+            tokenTime = new Dictionary<string, int>();
+        }
+
+        public void Generate(string tokenId, int currentTime)
+        {
+            if (!tokenTime.ContainsKey(tokenId))
+            {
+                tokenTime.Add(tokenId, currentTime);
+            }
+        }
+
+        public void Renew(string tokenId, int currentTime)
+        {
+            if (tokenTime.ContainsKey(tokenId))
+            {
+                var expTime = tokenTime[tokenId] + _timeToLive;
+                if (currentTime < expTime)
+                {
+                    tokenTime[tokenId] = currentTime;
+                }
+            }
+        }
+
+        public int CountUnexpiredTokens(int currentTime)
+        {
+            int count = 0;
+            foreach (var token in tokenTime)
+            {
+                if ((token.Value + _timeToLive) > currentTime)
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+    }
+}
