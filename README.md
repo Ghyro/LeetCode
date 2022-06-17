@@ -14,6 +14,7 @@ LeetCode problem solutions for coding rounds.
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/242.%20Valid%20Anagram.txt)
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2236.%20Root%20Equals%20Sum%20of%20Children.txt)
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/938.%20Range%20Sum%20of%20BST.txt)
+| 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | [C#]()
 ---
 
 ## Medium
