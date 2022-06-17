@@ -1,5 +1,5 @@
 # LeetCode issues
-LeetCode problem solutions for coding rounds.
+LeetCode problem solutions for coding rounds and FAANG interviews.
 
 ## Easy
 | Number | LeetCode Problem | My Solution
