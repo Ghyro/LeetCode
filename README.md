@@ -12,8 +12,8 @@ LeetCode problem solutions for coding rounds.
 | 905  | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/905.%20Sort%20Array%20By%20Parity.txt)
 | 1  | [Two Sum](https://leetcode.com/problems/two-sum/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1.%20Two%20Sum.txt)
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/242.%20Valid%20Anagram.txt)
-| 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [C#]()
-| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [C#]()
+| 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2236.%20Root%20Equals%20Sum%20of%20Children.txt)
+| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/938.%20Range%20Sum%20of%20BST.txt)
 ---
 
 ## Medium
