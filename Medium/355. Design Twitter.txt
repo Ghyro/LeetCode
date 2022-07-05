@@ -1,0 +1,94 @@
+public class Twitter
+    {
+        private readonly Dictionary<int, Dictionary<int, int>> userTweets;
+        private readonly Dictionary<int, HashSet<int>> userMapping;
+        private int _tweetIndex = 0;
+
+        public Twitter()
+        {
+            userTweets = new Dictionary<int, Dictionary<int, int>>();
+            userMapping = new Dictionary<int, HashSet<int>>();
+        }
+
+        public void PostTweet(int userId, int tweetId)
+        {
+            if (userTweets.ContainsKey(userId))
+                userTweets[userId].Add(_tweetIndex, tweetId);
+            else
+                userTweets.Add(userId, new Dictionary<int, int>() { { _tweetIndex, tweetId } });
+            _tweetIndex++;
+        }
+
+        public IList<int> GetNewsFeed(int userId)
+        {
+            var allTweets = new Dictionary<int, int>();
+
+            Dictionary<int, int> currentUserTweets = null;
+            if (userTweets.TryGetValue(userId, out var resultCurrentUserTweets))
+            {
+                if (resultCurrentUserTweets == null)
+                    return new List<int>();
+                currentUserTweets = resultCurrentUserTweets;
+            }                
+
+            HashSet<int> subs = null;
+            if (userMapping.TryGetValue(userId, out var resultSubs)) {
+                subs = resultSubs;
+            }
+            
+            if (currentUserTweets != null)
+            {
+                foreach (var tweet in currentUserTweets)
+                {
+                    allTweets.Add(tweet.Key, tweet.Value);
+                }
+            }            
+
+            if (subs != null)
+            {
+                foreach (var sub in subs)
+                {
+                    var subTweets = userTweets[sub];
+                    foreach (var subTweet in subTweets)
+                        allTweets.Add(subTweet.Key, subTweet.Value);
+                }
+            }
+            
+            return allTweets.OrderByDescending(x => x.Key).Take(10).Select(x => x.Value).ToList();
+        }
+
+        public void Follow(int followerId, int followeeId)
+        {
+            if (userMapping.ContainsKey(followerId))
+            {
+                if (!userMapping[followerId].Contains(followeeId))
+                    userMapping[followerId].Add(followeeId);                 
+            }
+            else
+            {
+                userMapping.Add(followerId, new HashSet<int> { followeeId });
+                if (!userTweets.ContainsKey(followerId))
+                    userTweets.Add(followerId, new Dictionary<int, int>());
+                if (!userTweets.ContainsKey(followeeId))
+                    userTweets.Add(followeeId, new Dictionary<int, int>());              
+            }
+        }
+
+        public void Unfollow(int followerId, int followeeId)
+        {
+            if (userMapping.ContainsKey(followerId))
+            {
+                if (userMapping[followerId].Contains(followeeId))
+                    userMapping[followerId].Remove(followeeId);
+            }
+        }
+    }
+
+    /**
+     * Your Twitter object will be instantiated and called as such:
+     * Twitter obj = new Twitter();
+     * obj.PostTweet(userId,tweetId);
+     * IList<int> param_2 = obj.GetNewsFeed(userId);
+     * obj.Follow(followerId,followeeId);
+     * obj.Unfollow(followerId,followeeId);
+     */
