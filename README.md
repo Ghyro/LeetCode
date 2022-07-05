@@ -25,6 +25,7 @@ LeetCode problem solutions for coding rounds and FAANG interviews.
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Medium/49.%20Group%20Anagrams.txt)
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Medium/380.%20Insert%20Delete%20GetRandom%20O(1).txt)
 | 2043 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Medium/2043.%20Simple%20Bank%20System.txt)
+| 355  | [Design Twitter](https://leetcode.com/problems/design-twitter/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Medium/355.%20Design%20Twitter.txt)
 
 ---
 
