@@ -15,6 +15,7 @@ LeetCode problem solutions for coding rounds and FAANG interviews.
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2236.%20Root%20Equals%20Sum%20of%20Children.txt)
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/938.%20Range%20Sum%20of%20BST.txt)
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1389.%20Create%20Target%20Array%20in%20the%20Given%20Order.txt)
+| 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2000.%20Reverse%20Prefix%20of%20Word.txt)
 ---
 
 ## Medium
