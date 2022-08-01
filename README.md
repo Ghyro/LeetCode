@@ -17,6 +17,7 @@ LeetCode problem solutions for coding rounds and FAANG interviews.
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1389.%20Create%20Target%20Array%20in%20the%20Given%20Order.txt)
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2000.%20Reverse%20Prefix%20of%20Word.txt)
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [TypeScript](https://github.com/Ghyro/LeetCode/blob/main/Easy/13.%20Roman%20to%20Integer.txt)
+| 129 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/169.%20Majority%20Element.txt)
 ---
 
 ## Medium
