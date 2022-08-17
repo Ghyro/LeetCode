@@ -18,6 +18,11 @@ LeetCode problem solutions for coding rounds and FAANG interviews.
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2000.%20Reverse%20Prefix%20of%20Word.txt)
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [TypeScript](https://github.com/Ghyro/LeetCode/blob/main/Easy/13.%20Roman%20to%20Integer.txt)
 | 129 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/169.%20Majority%20Element.txt)
+| 1890 | [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/) | [MS SQL Server](https://github.com/Ghyro/LeetCode/blob/main/Easy/1890.%20The%20Latest%20Login%20in%202020.txt)
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/26.%20Remove%20Duplicates%20from%20Sorted%20Array.txt)
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/217.%20Contains%20Duplicate.txt)
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/283.%20Move%20Zeroes.txt)
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/278.%20First%20Bad%20Version.txt)
 ---
 
 ## Medium
@@ -29,7 +34,7 @@ LeetCode problem solutions for coding rounds and FAANG interviews.
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Medium/380.%20Insert%20Delete%20GetRandom%20O(1).txt)
 | 2043 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Medium/2043.%20Simple%20Bank%20System.txt)
 | 355  | [Design Twitter](https://leetcode.com/problems/design-twitter/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Medium/355.%20Design%20Twitter.txt)
-
+| 189  | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Medium/189.%20Rotate%20Array.txt)
 ---
 
 ## Hard
