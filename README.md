@@ -23,8 +23,8 @@ LeetCode problem solutions for coding rounds and FAANG interviews.
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/217.%20Contains%20Duplicate.txt)
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/283.%20Move%20Zeroes.txt)
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/278.%20First%20Bad%20Version.txt)
-| 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | [C#]()
-| 2315 | [Count Asterisks](https://leetcode.com/problems/count-asterisks/) | [C#]()
+| 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.txt)
+| 2315 | [Count Asterisks](https://leetcode.com/problems/count-asterisks/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2315.%20Count%20Asterisks.txt)
 ---
 
 ## Medium
