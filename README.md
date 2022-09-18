@@ -25,8 +25,8 @@ LeetCode problem solutions for coding rounds and FAANG interviews.
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/278.%20First%20Bad%20Version.txt)
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.txt)
 | 2315 | [Count Asterisks](https://leetcode.com/problems/count-asterisks/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2315.%20Count%20Asterisks.txt)
-| 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | [C#]()
-| 2325 | [Decode the Message](https://leetcode.com/problems/decode-the-message/) | [C#]()
+| 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2413.%20Smallest%20Even%20Multiple.txt)
+| 2325 | [Decode the Message](https://leetcode.com/problems/decode-the-message/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2325.%20Decode%20the%20Message.txt)
 ---
 
 ## Medium
