@@ -1,0 +1,23 @@
+public class Solution {
+    public string DecodeMessage(string key, string message) {
+        var result = new StringBuilder();
+        var mapping = new Dictionary<char, char>();
+        var alphabet = "abcdefghijklmnopqrstuvwxyz";
+        var lettersIndex = 0;
+        foreach (var ch in key) {
+            if (!mapping.ContainsKey(ch) && ch != ' ') {
+                mapping.Add(ch, alphabet[lettersIndex]);
+                lettersIndex++;
+            }
+        }
+        foreach (var ch in message) {
+            if (mapping.ContainsKey(ch)) {
+                result.Append(mapping[ch]);
+            }
+            else if (ch == ' ') {
+                result.Append(' ');
+            }
+        }
+        return result.ToString();
+    }
+}
