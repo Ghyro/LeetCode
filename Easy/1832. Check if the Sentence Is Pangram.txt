@@ -1,0 +1,11 @@
+public class Solution {
+    public bool CheckIfPangram(string sentence) {
+        var hash = new HashSet<char>();
+        foreach(var ch in sentence) {
+            if (!hash.Contains(ch)) {
+                hash.Add(ch);
+            }
+        }
+        return hash.Count == 26;
+    }
+}
