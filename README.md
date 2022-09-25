@@ -27,9 +27,9 @@ LeetCode problem solutions for coding rounds and FAANG interviews.
 | 2315 | [Count Asterisks](https://leetcode.com/problems/count-asterisks/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2315.%20Count%20Asterisks.txt)
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2413.%20Smallest%20Even%20Multiple.txt)
 | 2325 | [Decode the Message](https://leetcode.com/problems/decode-the-message/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2325.%20Decode%20the%20Message.txt)
-| 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2325.%20Decode%20the%20Message.txt)
-| 1502 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2325.%20Decode%20the%20Message.txt)
-| 1773 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2325.%20Decode%20the%20Message.txt)
+| 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1832.%20Check%20if%20the%20Sentence%20Is%20Pangram.txt)
+| 1502 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence.txt)
+| 1773 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1773.%20Count%20Items%20Matching%20a%20Rule.txt)
 ---
 
 ## Medium
