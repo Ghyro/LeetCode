@@ -32,6 +32,9 @@ LeetCode problem solutions for coding rounds and FAANG interviews.
 | 1773 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1773.%20Count%20Items%20Matching%20a%20Rule.txt)
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/112.%20Path%20Sum.txt)
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.txt)
+| 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1773.%20Count%20Items%20Matching%20a%20Rule.txt)
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/112.%20Path%20Sum.txt)
+| 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [MS SQL Server](https://github.com/Ghyro/LeetCode/blob/main/Easy/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.txt)
 ---
 
 ## Medium

@@ -1,0 +1,13 @@
+public class Solution {
+    public char RepeatedCharacter(string s) {
+        var hash = new HashSet<char>();
+        foreach(var ch in s) {
+            if (!hash.Contains(ch)) {
+                hash.Add(ch);
+            } else {
+                return ch;
+            }
+        }        
+        return ' ';
+    }
+}

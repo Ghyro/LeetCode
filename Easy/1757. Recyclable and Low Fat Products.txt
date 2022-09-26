@@ -1,0 +1,2 @@
+select t.product_id from Products as t
+where t.low_fats = 'Y' and t.recyclable = 'Y'
