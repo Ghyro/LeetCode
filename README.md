@@ -30,6 +30,8 @@ LeetCode problem solutions for coding rounds and FAANG interviews.
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1832.%20Check%20if%20the%20Sentence%20Is%20Pangram.txt)
 | 1502 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence.txt)
 | 1773 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1773.%20Count%20Items%20Matching%20a%20Rule.txt)
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1773.%20Count%20Items%20Matching%20a%20Rule.txt)
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1773.%20Count%20Items%20Matching%20a%20Rule.txt)
 ---
 
 ## Medium

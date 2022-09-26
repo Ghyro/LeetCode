@@ -1,0 +1,20 @@
+public class Solution {
+    public TreeNode SortedArrayToBST(int[] nums) {
+        if (nums == null || nums.Length == 0) {
+            return null;
+        }
+        return Converter(nums, 0, nums.Length-1);
+    }
+    
+    private TreeNode Converter(int[] arr, int start, int end) {
+        if (start > end) {
+            return null;
+        }
+        
+        var mid = (start+end) / 2;
+        var node = new TreeNode(arr[mid]);
+        node.left = Converter(arr, start, mid-1);
+        node.right = Converter(arr, mid+1, end);
+        return node;
+    }
+}
