@@ -35,7 +35,7 @@ LeetCode problem solutions for coding rounds and FAANG interviews.
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/2351.%20First%20Letter%20to%20Appear%20Twice.txt)
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/20.%20Valid%20Parentheses.txt)
 | 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [MS SQL Server](https://github.com/Ghyro/LeetCode/blob/main/Easy/1757.%20Recyclable%20and%20Low%20Fat%20Products.txt)
-| 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | [MS SQL Server](https://github.com/Ghyro/LeetCode/blob/main/Easy/1757.%20Recyclable%20and%20Low%20Fat%20Products.txt)
+| 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | [C#](https://github.com/Ghyro/LeetCode/blob/main/Easy/1379.%20Find%20a%20Corresponding%20Node%20of%20a%20Binary%20Tree%20in%20a%20Clone%20of%20That%20Tree.txt)
 ---
 
 ## Medium
